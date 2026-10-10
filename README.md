@@ -5,8 +5,6 @@ Small REST API for storing people and their direct connections and finding how t
 
 ## Architecture
 
-## Architecture
-
 ![Architecture Diagram](Architecture.jpeg)
 
 ## Tech
