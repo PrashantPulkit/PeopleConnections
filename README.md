@@ -1,14 +1,7 @@
-# Nada People & Connections API
+
+People & Connections API
 
 Small REST API for storing people and their direct connections and finding how two people are connected.
-
-## Architecture
-
-
-
-
-
-
 
 
 ## Tech
