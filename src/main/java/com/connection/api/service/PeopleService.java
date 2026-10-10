@@ -34,8 +34,11 @@ public class PeopleService {
             throw new IllegalArgumentException("a and b must be different");
         }
 
-        if (repository.findById(a).isEmpty() || repository.findById(b).isEmpty()) {
-            throw new NoSuchElementException("one or more person to be in this connectioon dont exist");
+        if (repository.findById(a).isEmpty() ) {
+            throw new NoSuchElementException(a +" dont exist");
+        }
+        if ( repository.findById(b).isEmpty()) {
+            throw new NoSuchElementException(b + " dont exist");
         }
 
         repository.addConnection(a, b);
