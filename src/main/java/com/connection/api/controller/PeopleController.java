@@ -1,6 +1,8 @@
 package com.connection.api.controller;
 
-@Restcontroller
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
 public class PeopleController {
 
 }
